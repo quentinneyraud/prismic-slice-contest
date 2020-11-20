@@ -12878,11 +12878,6 @@ react-textarea-autosize@^8.1.1:
     use-composed-ref "^1.0.0"
     use-latest "^1.0.0"
 
-react-tidy@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/react-tidy/-/react-tidy-1.1.0.tgz#68c29e1c1bfa2ecc55c3060ee2784d2ee2b5cbe8"
-  integrity sha512-rOA0Fjz9BybfxhcPffSp3NzRw6INTNyKb+W1SxmWoUfdOVExfMszD22kK051fMHX7Ks78c1kq4A9gxgTCJMO6w==
-
 react-tooltip@^4.2.8:
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-4.2.10.tgz#ed1a1acd388940c96f4b6309f4fd4dcce5e01bdc"
@@ -13768,10 +13763,10 @@ slice-ansi@^2.1.0:
     astral-regex "^1.0.0"
     is-fullwidth-code-point "^2.0.0"
 
-slice-machine-ui@^0.0.39:
-  version "0.0.39"
-  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.0.39.tgz#528c472b9f753baee8f8ef72455c13763ba3968d"
-  integrity sha512-yGxB9d1wNTlQgbqlilqTtWgVChExipK/hOP9vHELgc8s5AlO8f20xaj/fRjfH2c73+F+JxXnz1OMvhkDB0y2WA==
+slice-machine-ui@^0.0.38:
+  version "0.0.38"
+  resolved "https://registry.yarnpkg.com/slice-machine-ui/-/slice-machine-ui-0.0.38.tgz#aad40759ba932f8dfd52c21458267530c5132874"
+  integrity sha512-PS2lTm/f9pGSxubjaxK6RX+VUudLgWX1lrD3IskjGcyRYy3tiOzwnZEPXdVuSGkC7GJZxUgctwou4uT0SqP+Bg==
   dependencies:
     "@babel/plugin-transform-typescript" "^7.11.0"
     "@babel/register" "^7.11.5"
@@ -13800,7 +13795,6 @@ slice-machine-ui@^0.0.39:
     react-dom "16.13.1"
     react-icons "^3.10.0"
     react-modal "^3.11.2"
-    react-tidy "^1.1.0"
     react-tooltip "^4.2.8"
     serve-static "^1.14.1"
     sm-commons "^0.0.22"
