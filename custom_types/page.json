@@ -10,7 +10,10 @@
     "body": {
       "type": "Slices",
       "fieldset": "Slice zone",
-      "config": {}
+      "config": {
+        "labels": {},
+        "choices": {}
+      }
     }
   },
   "SEO Metadata": {
@@ -43,7 +46,7 @@
           "social_card_title": {
             "type": "Text",
             "config": {
-              "label": "Social Card TItle"
+              "label": "Social Card Title"
             }
           },
           "social_card_description": {
