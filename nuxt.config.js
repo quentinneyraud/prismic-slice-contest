@@ -1,3 +1,5 @@
+import smConfig from './sm.json'
+
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
@@ -32,7 +34,7 @@ export default {
     '@nuxtjs/eslint-module'],
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [['@nuxtjs/prismic', {
-    endpoint: '',
+    endpoint: smConfig.apiEndpoint || '',
     apiOptions: {
       routes: [{
         type: 'page',
@@ -43,5 +45,9 @@ export default {
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
     transpile: ['vue-slicezone', 'nuxt-sm']
-  }
+  },
+  storybook: {
+    stories: ['~/slices/**/*.stories.js']
+  },
+  ignore: ['**/*.stories.js']
 }

@@ -1,5 +1,7 @@
 {
   "libraries": [
     "@/slices"
-  ]
+  ],
+  "storybook": "http://localhost:3003",
+  "apiEndpoint": "https://prismic-slice-contest.cdn.prismic.io/api/v2"
 }
