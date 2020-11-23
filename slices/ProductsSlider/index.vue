@@ -184,15 +184,20 @@ export default {
   display flex
   width 100%
   margin-top 50px
+  flex-direction column
+  height 1000px
 
-  +desktop-up()
+  +tablet-up()
+    flex-direction row
     height 500px
 
 .ProductsSlider-imageSide, .ProductsSlider-contentSide
   position relative
+  flex 0 0 50%
+  height 50%
 
-  +desktop-up()
-    height 100%
+  +tablet-up()
+    height auto
     width 50%
     flex 0 0 50%
 

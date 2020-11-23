@@ -1,0 +1,37 @@
+[
+  {
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "ProductHeader",
+    "primary": {
+      "title": [
+        {
+          "type": "heading1",
+          "text": "target sticky models",
+          "spans": []
+        }
+      ],
+      "description": [
+        {
+          "type": "paragraph",
+          "text": "architect out-of-the-box architectures",
+          "spans": []
+        }
+      ],
+      "image": {
+        "dimensions": {
+          "width": 900,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.prismic.io/important-sm-images/bc3666e1-3430-4cbd-8b57-6edf2cc6ceab_PSxIoipDUZ4.jpg?w=900&h=500"
+      },
+      "viewMoreText": "View more"
+    },
+    "items": [],
+    "slice_type": "product_header"
+  }
+]
