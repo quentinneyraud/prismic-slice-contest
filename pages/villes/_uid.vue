@@ -1,8 +1,8 @@
 <template>
   <div class="l-container">
     <slice-zone
-      type="page"
-      uid="home"
+      type="product_page"
+      :uid="$route.params.uid"
     />
   </div>
 </template>

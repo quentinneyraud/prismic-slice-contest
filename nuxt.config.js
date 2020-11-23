@@ -5,7 +5,7 @@ export default {
   target: 'static',
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'slice-contest',
+    title: 'Prismic Tour Agency',
     meta: [{
       charset: 'utf-8'
     }, {
@@ -20,12 +20,6 @@ export default {
       rel: 'icon',
       type: 'image/x-icon',
       href: '/favicon.ico'
-    }, {
-      rel: 'styleheet',
-      href: 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap'
-    }, {
-      rel: 'styleheet',
-      href: 'https://fonts.googleapis.com/css2?family=Castoro&display=swap'
     }],
     script: []
   },
@@ -75,6 +69,9 @@ export default {
       routes: [{
         type: 'page',
         path: '/:uid'
+      }, {
+        type: 'product_page',
+        path: '/villes/:uid'
       }]
     }
   },
