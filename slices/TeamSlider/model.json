@@ -1,0 +1,53 @@
+{
+  "id": "team_slider",
+  "type": "SharedSlice",
+  "name": "TeamSlider",
+  "description": "TeamSlider",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TeamSlider",
+      "primary": {
+        "title": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "portrait": {
+          "type": "Image",
+          "config": {
+            "id": "portrait",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "name": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "name",
+            "placeholder": ""
+          }
+        },
+        "status": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "status",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}
