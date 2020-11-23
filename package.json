@@ -15,7 +15,6 @@
     "build-storybook": "nuxt storybook build"
   },
   "dependencies": {
-    "@nuxtjs/google-fonts": "^1.2.0",
     "@nuxtjs/prismic": "^1.2.4",
     "@nuxtjs/style-resources": "^1.0.0",
     "@prismicio/vue": "^2.0.7",
@@ -24,6 +23,7 @@
     "gsap": "^3.5.1",
     "nuxt": "^2.14.6",
     "nuxt-sm": "^0.0.6",
+    "nuxt-webfontloader": "^1.1.0",
     "prismic-javascript": "^3.0.2",
     "vue-slicezone": "^0.0.28"
   },

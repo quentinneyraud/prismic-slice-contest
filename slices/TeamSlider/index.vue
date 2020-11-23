@@ -64,18 +64,21 @@ export default {
 
   /deep/ h2
     display inline-block
-    font(roboto-ff, 60, 60, fw-bold, black)
+    font(castoro-ff, 90, auto, fw-regular, #385250)
+    text-transform capitalize
 
 .TeamSlider-slider
   size(9)
-  height 500px
   display flex
-  flex-wrap nowrap
+  flex-wrap wrap
   overflow hidden
+  margin-top -40px
 
 .TeamSlider-item
   padding 0 25px
+  height 400px
   size(calc(400px))
+  margin-top 40px
 
 .TeamSlider-itemInner
   position relative

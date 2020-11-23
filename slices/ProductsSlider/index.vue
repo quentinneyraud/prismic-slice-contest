@@ -166,11 +166,13 @@ export default {
 <style lang="stylus" scoped>
 .ProductsSlider-component
   position relative
+  padding 75px 0px
 
 .ProductsSlider-title
   /deep/ h2
     display inline-block
-    font(roboto-ff, 45, auto, 100, black)
+    font(castoro-ff, 90, auto, fw-regular, #385250)
+    text-transform capitalize
 
   &:after
     content ''
@@ -235,7 +237,7 @@ export default {
     margin 0 5px
 
 .ProductsSlider-productName
-  font(roboto-ff, 45, auto, fw-bold, black)
+  font(castoro-ff, 45, auto, fw-bold, black)
 
 .ProductsSlider-link
   font(roboto-ff, 18, auto, fw-light, black, 0em, italic)

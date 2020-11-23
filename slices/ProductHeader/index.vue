@@ -118,7 +118,8 @@ export default {
   max-width 700px
 
   /deep/ h1
-    font(roboto-ff, 80, 80, 700, white)
+    font(castoro-ff, 100, 100, 700, white)
+    text-transform capitalize
 
 .ProductHeader-description
   margin-top 25px

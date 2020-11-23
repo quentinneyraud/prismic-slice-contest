@@ -1,0 +1,53 @@
+{
+  "id": "faq_section",
+  "type": "SharedSlice",
+  "name": "FaqSection",
+  "description": "FaqSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "FaqSection",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "text": {
+          "config": {
+            "label": "Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {
+        "question": {
+          "type": "Text",
+          "config": {
+            "label": "",
+            "id": "question",
+            "placeholder": ""
+          }
+        },
+        "answer": {
+          "config": {
+            "label": "",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          },
+          "type": "StructuredText"
+        }
+      }
+    }
+  ]
+}

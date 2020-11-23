@@ -47,7 +47,8 @@ export default {
   modules: [
     '@nuxtjs/style-resources',
     '@nuxtjs/prismic',
-    'nuxt-sm'
+    'nuxt-sm',
+    'nuxt-webfontloader'
   ],
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
@@ -76,8 +77,13 @@ export default {
         path: '/:uid'
       }]
     }
-  }
+  },
   /*
   ** Google fonts module
   */
+  webfontloader: {
+    google: {
+      families: ['Roboto:100,200,300,400,500,600,700,800,900', 'Castoro']
+    }
+  }
 }
