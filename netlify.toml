@@ -5,4 +5,4 @@
   # Build command
   command = "yarn build-storybook"
   # Build directory
-  publish = "dist/"
+  publish = "storybook-static/"
