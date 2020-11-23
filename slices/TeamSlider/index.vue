@@ -16,21 +16,20 @@
           :key="itemIndex"
           class="TeamSlider-item"
         >
-          <div class="TeamSlider-itemInner">
-            <div class="TeamSlider-itemContent">
-              <p class="TeamSlider-itemName">
-                {{ item.name }}
-              </p>
-
-              <p class="TeamSlider-itemStatus">
-                {{ item.name }}
-              </p>
-            </div>
-
+          <div class="TeamSlider-itemImageWrapper">
             <prismic-image
               :field="item.portrait"
               class="TeamSlider-itemImage"
             />
+          </div>
+          <div class="TeamSlider-itemContent">
+            <p class="TeamSlider-itemName">
+              {{ item.name }}
+            </p>
+
+            <p class="TeamSlider-itemStatus">
+              {{ item.name }}
+            </p>
           </div>
         </div>
       </div>
@@ -58,6 +57,8 @@ export default {
 <style scoped lang="stylus">
 .TeamSlider-component
   position relative
+  padding 75px 25px
+  background-color #efefea
 
 .TeamSlider-title
   size(3)
@@ -76,19 +77,16 @@ export default {
 
 .TeamSlider-item
   padding 0 25px
-  height 400px
   size(calc(400px))
   margin-top 40px
-
-.TeamSlider-itemInner
-  position relative
-  height 100%
-  width 100%
   display flex
   flex-direction column
   align-items center
-  justify-content center
-  text-align center
+
+.TeamSlider-itemImageWrapper
+  position relative
+  height 400px
+  width 100%
 
 .TeamSlider-itemImage
   full-parent()
@@ -99,13 +97,17 @@ export default {
 
 .TeamSlider-itemContent
   position relative
+  margin-top -50px
+  padding 15px 25px
+  width 80%
   z-index 10
-  padding 25px 0
   background-color #fff
+  text-align center
 
 .TeamSlider-itemName
-  font(castoro-ff, 30, auto, fw-bold, black)
+  font(castoro-ff, 20, auto, fw-bold, black)
 
 .TeamSlider-itemStatus
-  font(roboto-ff, 16, auto, fw-bold, black)
+  font(roboto-ff, 12, auto, fw-bold, grey, 0em, italic)
+  margin-top 15px
 </style>

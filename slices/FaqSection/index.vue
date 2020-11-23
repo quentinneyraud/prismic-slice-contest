@@ -70,11 +70,16 @@ export default {
     .FaqSection-itemBody
       height auto
 
+    .FaqSection-itemHeader:after
+      transform scaleX(1)
+      opacity 1
+
 .FaqSection-itemHeader
   position relative
   display flex
   align-items center
   height 100px
+  width 100%
 
   &:after
     content ''
@@ -85,16 +90,17 @@ export default {
     height 1px
     background-color #385250
     transform-origin left center
-    opacity 0.5
+    opacity 0.2
     transform scaleX(0.75)
+    transition all 0.5s easeInOutCubic
 
 .FaqSection-itemQuestion
   font(castoro-ff, 40, auto, fw-regular, #385250)
 
 .FaqSection-itemBody
-  height 0
+  height 0px
   overflow hidden
-  transition height 0.5s easeInoutCubic
+  transition all 0.5s easeInoutCubic
 
 .FaqSection-itemAnswer
   padding 25px 0
